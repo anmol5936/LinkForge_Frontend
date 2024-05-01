@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        banner: "url('./src/assets/OIP.jpg')",
+        banner: "url('https://res.cloudinary.com/dzxgf75bh/image/upload/v1714550298/pbix5dqad43qbj5apzer.jpg')",
       },
 
     },
