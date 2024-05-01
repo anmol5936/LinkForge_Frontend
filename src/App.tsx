@@ -17,13 +17,24 @@ const App: React.FunctionComponent<IAppProps> = () => {
     return () => clearTimeout(timer);
   }, []); 
 
-  
-
   return (
     <>
       {loading ? (
-        <div className="spinner filter contrast-150">
-          <img src="https://res.cloudinary.com/dzxgf75bh/image/upload/v1714570038/1494_unlmwm.gif" alt="Loader" />
+        <div
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div className="spinner">
+            <img src="https://res.cloudinary.com/dzxgf75bh/image/upload/v1714570038/1494_unlmwm.gif" alt="Loader" />
+          </div>
         </div>
       ) : (
         <>
