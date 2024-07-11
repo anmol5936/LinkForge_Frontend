@@ -12,7 +12,7 @@ const App: React.FunctionComponent<IAppProps> = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []); 
@@ -31,9 +31,10 @@ const App: React.FunctionComponent<IAppProps> = () => {
             justifyContent: 'center',
             alignItems: 'center',
           }}
+          className=' bg-[#EFEFEF]'
         >
           <div className="spinner">
-            <img src="https://res.cloudinary.com/dzxgf75bh/image/upload/v1714570038/1494_unlmwm.gif" alt="Loader" />
+            <img src="https://res.cloudinary.com/dzxgf75bh/image/upload/v1720680520/9f09d1ad-7738-4fb7-8d93-2acce7dd7a08.png" alt="Loader" />
           </div>
         </div>
       ) : (

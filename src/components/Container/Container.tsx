@@ -27,7 +27,7 @@ const Container: React.FunctionComponent<IContainerProps> = () => {
   }, [reload]);
 
   return (
-    <div className="bg-slate-900 ">
+    <div className="bg-[#60935D] min-h-screen">
       <FormContainer updateReloadState={updateReloadState} />
       <DataTable updateReloadState={updateReloadState} data={data} />
     </div>
