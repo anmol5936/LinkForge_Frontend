@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <div className='bg-slate-900 text-white text-base text-center py-5'>
 
-        Copyright &#169; URLShortner | Anmol Mangaraj
+        Copyright &#169; LinkForge | Anmol Mangaraj
     </div>
   )
 }
