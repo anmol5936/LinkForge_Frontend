@@ -49,7 +49,7 @@ const FormContainer: React.FunctionComponent<IFormContainerProps> = (props) => {
                 />
                 <button
                   type="submit"
-                  className="absolute top-0 end-0 p-2.5 text-lg font-medium h-full text-white bg-[#5b446a] rounded-lg border border-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300"
+                  className="absolute top-0 end-0 p-2.5 text-lg font-medium h-full text-white bg-[#5b446a] hover:bg-[#41d148] hover:text-black rounded-lg border focus:ring-4 focus:outline-none focus:ring-black"
                 >
                   Shorten URL
                 </button>
